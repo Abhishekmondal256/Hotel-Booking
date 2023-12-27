@@ -4,7 +4,7 @@ const Booking=require("../model/booking");
 const Room =require("../model/room");
 const moment=require("moment");
 const { v4: uuidv4 } = require('uuid');
-const stripe=require("stripe")("sk_test_51ORd0tSEyeAoYFPrhFjrI8O4WfIOfCqjacd9QY8iCoFNUq5gp4cDTAAuGwzWhm6f1HoXbdbu1i9EeZZx2Iwc412C009tLWuK6k");
+
 router.post("/bookroom",async(req,res)=>{
     
 const {

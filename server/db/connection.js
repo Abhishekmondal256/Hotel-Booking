@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-const DB="mongodb+srv://abhi:afgh34@cluster0.m0kpux9.mongodb.net/hotelbooking?retryWrites=true&w=majority"
+const DB=process.env.DB;
 
 mongoose.connect(DB
     ).then(()=>{

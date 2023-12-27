@@ -1,0 +1,24 @@
+select{
+box-shadow: none !important;
+margin-top: 5px !important;
+border:2px solid black !important;
+width:100% !important;
+height:35px !important;
+}
+input{
+    margin-top: 5px !important;
+    border:2px solid black !important;
+    height:35px !important;  
+}
+.ant-picker{
+    box-shadow: none !important;
+    margin-top: 5px !important;
+    border:2px solid black !important;
+    width:100% !important;
+    height: 35px !important;
+    }
+
+    .ant-picker-input input{
+border:none !important;
+
+    }
